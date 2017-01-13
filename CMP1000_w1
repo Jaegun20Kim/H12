@@ -1,0 +1,34 @@
+var gr : Int = 0
+
+gr = 50
+
+
+var so : String = ""
+var Grade : String = ""
+
+so = String(gr)
+
+
+print ("your score is : " + so);
+
+if gr > 80 && gr <= 100 {
+    Grade = "A"
+    print("your Grade is : A")
+} else if gr > 70 && gr < 79 {
+    Grade = "B"
+    print("your Grade is : B")
+} else if gr > 60 && gr < 69 {
+    Grade = "C"
+    print("your Grade is : C")
+} else if gr > 50 && gr < 59 {
+    Grade = "D"
+    print("your Grade is : D")
+} else if gr < 49 {
+    print("your Grade is : F")
+}
+
+if Grade >= "A" && Grade <= "D"{
+    print("You are Pass")
+} else {
+    print("You are Fail")
+}
